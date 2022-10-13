@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #161A1E;
+}
+
+.block1, .block2 {
+  color: #0ECB7E; 
+  font-size: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
