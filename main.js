@@ -1,6 +1,6 @@
 setInterval(function() {
   $.ajax({
-      url: 'https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT',
+      url: 'https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT',
       method: 'get', 
       dataType: 'json',
       data: {},
@@ -11,4 +11,4 @@ setInterval(function() {
           $(".block2").text(data.price)
       }
   });
-}, 100);
+}, 50);
