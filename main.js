@@ -1,6 +1,6 @@
 setInterval(function() {
   $.ajax({
-      url: 'https://api.binance.com/api/v3/ticker/price?symbol=ZECUSDT',
+      url: 'https://api.binance.com/api/v3/ticker/price?symbol=LQTYUSDT',
       method: 'get', 
       dataType: 'json',
       data: {},
